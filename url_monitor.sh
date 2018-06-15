@@ -45,7 +45,7 @@ for url in $my_url;do
 done
 
 if [ -s /home/shell/url_monitor.log ];then
-    /home/shell/mail "810485328@qq.com;zhangsonghe@huiyoujia.com" "url_monitor" "`cat /home/shell/url_monitor.log`"
+    /home/shell/mail "xxx@qq.com;xxx@huiyoujia.com" "url_monitor" "`cat /home/shell/url_monitor.log`"
 fi  
 >/home/shell/url_monitor.log
 }
