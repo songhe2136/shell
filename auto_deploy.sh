@@ -16,7 +16,7 @@ deploy_dir="/deploy"
 # Node List
 #pre_list="10.10.3.8"
 group_list="spring@10.10.3.26 spring@10.10.3.27 spring@10.10.3.28"
-rollback_list="spring@192.168.2.26 spring@192.168.2.27 spring@192.168.2.28"
+rollback_list="spring@10.10.3.26 spring@10.10.3.27 spring@10.10.3.28"
 
 # Date Varibles
 ctime=$(date "+%F-%H-%M")
