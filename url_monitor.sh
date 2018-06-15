@@ -5,18 +5,13 @@ c_time=`date +"%F %T"`
 #monitor url
 qingchifan_url="
 http://www.qingchifan.com/login?client_type=1
-http://api.qingchifan.com/
-https://admin.qingchifan.com/login.jsp
+http://www.qingchifan.com/
 "
 adore_url="
 http://www.adoreapp.com/member
-https://admin.adoreapp.com/login.html
-http://api.adoreapp.com/
 "
 maoqiu_url="
 http://www.maoqiuapp.com/dashboard
-https://admin.maoqiuapp.com/login
-http://api.maoqiuapp.com/rss.xml
 "
 my_url="$qingchifan_url $adore_url $maoqiu_url"
 
