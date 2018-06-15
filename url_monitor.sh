@@ -29,6 +29,7 @@ for url in $my_url;do
         else
             fail_url[$num]=1
             let num++
+            sleep 3
         fi
     done
     if [ ${#fail_url[@]} -eq 3 ];then
