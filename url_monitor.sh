@@ -4,14 +4,19 @@ c_time=`date +"%F %T"`
 
 #monitor url
 qingchifan_url="
-http://www.qingchifan.com/login?client_type=1
-http://www.qingchifan.com/
+http://www.qingchifan.com/a
+http://www.qingchifan.com/b
+http://www.qingchifan.com/c
 "
 adore_url="
-http://www.adoreapp.com/member
+http://www.adoreapp.com/member1
+http://www.adoreapp.com/member2
+http://www.adoreapp.com/member3
 "
 maoqiu_url="
-http://www.maoqiuapp.com/dashboard
+http://www.maoqiuapp.com/dashboard1
+http://www.maoqiuapp.com/dashboard2
+http://www.maoqiuapp.com/dashboard3
 "
 my_url="$qingchifan_url $adore_url $maoqiu_url"
 
