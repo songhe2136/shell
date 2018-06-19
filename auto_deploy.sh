@@ -212,3 +212,7 @@ fi
 if [ -z ${tmp_var} ];then echo "Usage:$0 [error. No parameter!]";exit;fi
 if [ ${tmp_var} = "build_code_pkg" ];then dir="code";del_and_backup;fi
 if [ ${tmp_var} = "tmp_build_code_pkg" ];then dir="tmp";del_and_backup2;fi
+
+###
+20 00 * * 01 /home/shell/del_build_history_pkg.sh build_code_pkg
+30 00 * * 01 /home/shell/del_build_history_pkg.sh tmp_build_code_pkg
