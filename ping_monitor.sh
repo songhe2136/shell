@@ -24,7 +24,8 @@ for ip in ${my_ip};do
         fi
     done
     if [ ${#ping_fail[@]} -eq 3 ];then
-        echo "Adore ${c_time} {PROBLEM: Zabbix agent($ip) on Zabbix server is unreachable for 5 minutes}"|mail -s "PROBLEM: Host is unreachable for 5 minutes" xxx@huiyoujia.com
+        echo "Adore ${c_time} {PROBLEM: Zabbix agent($ip) on Zabbix server is unreachable for 5 minutes}"| \ 
+        mail -s "PROBLEM: Host is unreachable for 5 minutes" xxx@huiyoujia.com
         unset ping_fail[@]
     fi
 done
