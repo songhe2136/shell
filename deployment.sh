@@ -1,4 +1,4 @@
-# 该 shell 结合 jenkins 执行构建动作 自动发布应用到 k8s 集群。用到的相关组件：jenkins,gitlab,harbor,k8s，nexue
+# 该 shell 结合 jenkins 执行构建动作 自动发布应用到 k8s 集群。用到的相关组件：jenkins,gitlab,harbor,k8s，nexus
 # shell 脚本注释也比较清晰，一目了然。
 
 #!/bin/bash
