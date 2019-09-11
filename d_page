@@ -16,7 +16,7 @@ f_page () {
 
     echo $p_start $p_end >/root/tmp/${net_type}-${t_date}-${serial_num}-${s_code}-$sq.bcp
 
-    p_start=$((p_total+5000))
+    p_start=$((p_start+5000))
     p_end=$((p_end+5000))
   
   done
