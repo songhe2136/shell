@@ -1,5 +1,5 @@
 #!/bin/bash
-net_type="1190036"
+net_type="1191336"
 t_date=`date +%s`
 serial_num=00000
 s_code="WA_BASIC_0009"
