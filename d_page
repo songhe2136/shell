@@ -1,0 +1,25 @@
+#!/bin/bash
+net_type="1190036"
+t_date=`date +%s`
+serial_num=00000
+s_code="WA_BASIC_0009"
+sq="0"
+
+f_page () {
+  p_start="0"
+  p_end="5000"
+  p_total="380000"
+
+  while [ $p_end -le $p_total ];do
+    serial_num=$((10#$serial_num+1))
+    serial_num=`printf "%05d" $serial_num`
+
+    echo $p_start $p_end >/root/tmp/${net_type}-${t_date}-${serial_num}-${s_code}-$sq.bcp
+
+    p_start=$((p_total+5000))
+    p_end=$((p_end+5000))
+  
+  done
+}
+
+f_page
