@@ -10,7 +10,7 @@ f_page () {
   p_end="15000"
   p_total="30000"
 
-  while [ $p_end -le $p_total ];do
+  while [ $p_start -le $p_total ];do
     serial_num=$((10#$serial_num+1))
     serial_num=`printf "%05d" $serial_num`
 
